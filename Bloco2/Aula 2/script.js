@@ -15,7 +15,7 @@ console.log(`Meu nome é "Julio Filizzola", Estou estudando às`, 23, `horas`);
 // quarto jeito
 
 const name = 'Julio Filizzola';
-const number = 23;
+ctouchonst number = 23;
 
 console.log(`Meu nome é '${name}', Estou estudando às ${number} horas`);
 
