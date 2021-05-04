@@ -8,4 +8,8 @@ const multiplicacao = 2 * 2;
 console.log(adicao, divisao, subtracao, multiplicacao);
 
 
-
+// + pode também concatenar. 
+// ++ incremento 
+// -- decrimento. 
+// += incremento de mais de um.
+// -= decremente de mais de um.
