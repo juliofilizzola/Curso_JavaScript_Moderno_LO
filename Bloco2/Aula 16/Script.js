@@ -15,3 +15,4 @@ const alunos = [
 
 
 console.log(alunos[0].Name); // log pegando só um elemento.
+console.log(alunos instanceof Array);
