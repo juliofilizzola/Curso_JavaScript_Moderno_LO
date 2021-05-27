@@ -8,6 +8,10 @@ name('jose');
 
 // arrow function
 
-const name = params => console.log(params);
+// const name = params => console.log(params);
 
-name('antonio')
+// name('antonio');
+
+const some = (a, b) => a + b * a;
+
+console.log(some(5,6));
