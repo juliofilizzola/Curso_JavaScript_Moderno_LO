@@ -18,3 +18,15 @@ const people = (fistName, lastName, age) => ({fistName, lastName, age});// crian
 const people1 = people('Luiz', 'Fernando', 23);
 
 console.log(people1);
+
+const people2 = {
+  Fala: 'Beleza?',
+  Beleza: 'Tribo,',
+  Tribo: 'Fala',
+
+  falar() { 
+    console.log(`${this.Tribo} ${this.Beleza} ${this.Fala}`);
+  },
+}
+
+people2.falar();
