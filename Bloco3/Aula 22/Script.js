@@ -13,3 +13,13 @@ const tr2 = numb1 && numb2 === 2;
 console.log(tr && tr2);
 console.log(tr || tr2 == true);
 console.log(tr2);
+
+// outro exemplo 
+
+const user = 'Xablau';
+const password = '1234';
+let login = true;
+
+if (user === 'Xablau' && password === '12341') login = false;
+
+!login ? console.log('Está logado') : console.log('Não está logado');
