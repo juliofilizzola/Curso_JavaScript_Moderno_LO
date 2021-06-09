@@ -16,3 +16,9 @@ const menor = 1<2;
 console.log(menor); // retorna true;
 
 console.log("------>");
+
+const igual = '1' == 1;
+console.log(igual);// retorna true;
+
+const estritamente = '1' === 1;
+console.log(estritamente); // retorna false;
