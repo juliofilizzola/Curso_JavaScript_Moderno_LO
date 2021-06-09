@@ -48,3 +48,7 @@ console.log(a || b || c || d || e || f );
 /**
  * Aqui, como todos são falso, ele retorna o ultimo falso, que no caso é o f;
  */
+
+/** Só uma adendo, o false, só é false se estiver escrito naturalmente
+ * se ele estiver entre '', vai ser considerado como true nessa comparação;
+ */
