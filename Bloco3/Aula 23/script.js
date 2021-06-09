@@ -34,3 +34,13 @@ console.log(0 || false || null || "xablau");
  * 
  */
 
+// outro exemplo 
+
+const a = NaN;
+const b = undefined;
+const c = '';
+const d = null;
+const e = false;
+const f = 0;
+
+console.log(a || b || c || d || e || f );
