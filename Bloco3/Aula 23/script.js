@@ -44,3 +44,7 @@ const e = false;
 const f = 0;
 
 console.log(a || b || c || d || e || f );
+
+/**
+ * Aqui, como todos são falso, ele retorna o ultimo falso, que no caso é o f;
+ */
