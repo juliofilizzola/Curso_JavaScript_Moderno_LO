@@ -1,12 +1,16 @@
 // If e Else
 
-const horas = 12;
+const horas = 22;
 
-if (horas < 12) {
-  console.log('Bom dia!');
-} else {
-  console.log('Boa tarde, já almoçou?');
-}
+if (horas >= 5 && horas < 12) console.log('Bom dia!');
+
+if(horas >= 12 && horas < 17) console.log('Boa tarde ');
+
+if (horas >= 17 && horas < 24 ) console.log('Boa noite!');
+
+if (horas >= 0 && horas < 5) console.log('Boa Madrugada!');
+
+if (horas > 24 ) console.log("Hora incorreta");
 
 
 /** 
