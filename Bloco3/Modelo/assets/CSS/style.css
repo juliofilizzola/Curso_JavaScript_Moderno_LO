@@ -37,3 +37,22 @@ form input {
 form input:focus {
   outline: 2px solid red;
 }
+
+form button {
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+form button:hover {
+  background-color: teal;
+}
+
+form button:active {
+  background-color: red;
+}
