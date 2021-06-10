@@ -10,8 +10,10 @@ body {
   padding: 0;
 }
 
-form {
-  margin: 20px, auto;
-  background-color: red;
-  padding: 50px;
+.container {
+  background-color: white;
+  color: black;
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
 }
