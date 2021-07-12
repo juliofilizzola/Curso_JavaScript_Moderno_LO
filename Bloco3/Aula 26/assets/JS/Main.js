@@ -6,6 +6,12 @@ valuer.addEventListener('submit', ({ target }) => {
 
   const peso = Number(inputPeso.value);
   const altura = Number(inputAltura.value);
+  const imc = getImc(peso, altura);
+  const nivelImc = getNivelImc(imc);
+
+  const msg = `Seu IMC é ${imc} (${nivelImc}).`;
+
+  setResultado(msg, true);
 });
 
 
