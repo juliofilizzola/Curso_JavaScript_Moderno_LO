@@ -1,47 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atividade</title>
-  <link rel="stylesheet" href="./assets/CSS/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-  <section class="container">
-    <h1>Tambela IMC</h1>
-  <table>
-    <tr>
-      <th>IMC</th>
-    </tr>
-    <tr>
-      <td>
-        Menos do que 18,5
-      </td>
-      <th>
-        Entre 18,5 e 24,9
-      </th>
-    </tr>
-  </table>
 
-    <form action="/" class="form"method="POST" >
-      <label >
-        Label Test
-        <input type="text" class="input1">
-      </label>
-      <label >
-        Label text
-        <input type="text"
-        class="input2">
-      </label>
-      <label >
-        Label test
-        <input type="number"
-        class="input3">
-      </label>
-      <button class="bot" type="submit">Enviar</button>
+<body>
+
+  <section class="container">
+    <h1>Calcule seu IMC</h1>
+    <form action="/" id="formulario" method="POST">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" name="altura">
+      <button type="submit">Enviar</button>
     </form>
+
+    <div id="resultado"></div>
   </section>
-  <script src="./assets/JS/Main.js"></script>
+
+  <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
