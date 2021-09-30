@@ -14,3 +14,17 @@ const data1 = new Date(0);
 console.log(data0.toString());
 
 console.log(data1);
+
+
+// formato de horas Ano, mês, dia, hora, minuto, seugndos e milesimos de segundo.
+
+const newData = new Date(2021, 8, 30, 14, 40);
+
+console.log(newData.toString());
+
+// ou
+
+const newData2 = new Date("2021-10-30 14:40");
+
+console.log(newData2.toString());
+
